@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Compare Grocery Price</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="compare_stores">Compare Stores</string>
+    <string name="add_store">Add Store</string>
+    <string name="available_stores">Available Stores</string>
+    <string name="store_name">Store Name</string>
+    <string name="shop_location_name">Shop Location (Name of place where is located at)</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="new_product">New product</string>
+    <string name="or_select_existing_product">Or select existing products</string>
+    <string name="product">Product</string>
+    <string name="item_price">Item Price</string>
+    <string name="add_product_to_store">Add product to store</string>
+    <string name="product_name">Product name</string>
+    <string name="product_brand_name">Product Brand Name</string>
+    <string name="scale_value">Scale Value</string>
+    <string name="add_shop">Add Shop</string>
+    <string name="select_first_store">Enter first store name</string>
+    <string name="nothing_selected">Nothing Selected</string>
+    <string name="select_second_store">Enter second store name</string>
+    <string name="compare_now">Compare Now</string>
+    <string name="add_store_product">Add Store Product</string>
+    <string name="products_in_this_store">Products in this Store</string>
+    <string name="no_product_available_please_add_new">no product available please add new</string>
+    <string name="no_available_store_to_show">No available store to show!</string>
+    <string name="there_is_no_products_in_this_store">there is no products in this store!</string>
+    <string name="note_compare_stores">*Note: If you can not find stores there are not available on your store\'s list, make sure that you have added the store before. You need to have at least two stores with similar products to have a comparison!</string>
+    <string name="no_similar_in_compare_list">No similar products to compare! Stores must have similar products</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CompareStores">
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteCompareFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_btn_style"
+        android:completionThreshold="1"
+        android:drawableStart="@drawable/style_product_btn"
+        android:drawablePadding="12dp"
+        android:ems="15"
+        android:hint="@string/select_first_store"
+        android:imeOptions="actionNext"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/firstCompareSelectedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="19"
+        android:text="@string/nothing_selected"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/autoCompleteCompareFirst" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteCompareSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_btn_style"
+        android:completionThreshold="1"
+        android:drawableStart="@drawable/style_product_btn"
+        android:drawablePadding="12dp"
+        android:ems="15"
+        android:hint="@string/select_second_store"
+        android:imeOptions="actionNext"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstCompareSelectedText" />
+
+    <TextView
+        android:id="@+id/secondCompareSelectedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="19"
+        android:text="@string/nothing_selected"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/autoCompleteCompareSecond" />
+
+    <Button
+        android:id="@+id/compareStoresButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/compare_now"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondCompareSelectedText" />
+
+    <TextView
+        android:id="@+id/compareStoresNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/note_compare_stores"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/compareStoresButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
